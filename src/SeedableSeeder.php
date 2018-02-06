@@ -21,6 +21,7 @@ class SeedableSeeder extends Seeder
         });
 
         foreach ($seedables as $seedable) {
+            $this->command->line("<info>Seeding Seedable:</info> $seedable");
             app($seedable)->seed();
         }
     }

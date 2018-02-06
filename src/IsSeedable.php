@@ -28,7 +28,7 @@ trait IsSeedable
      */
     public function seed($items = null, $update = true)
     {
-        if (!$items && $this instanceof IsSeedable) {
+        if (!$items && in_array(IsSeedable::class, class_uses_recursive($this))) {
             $items = $this->seedData();
         }
 
