@@ -2,7 +2,7 @@
   "name": "copemsamx/laravel-seedable",
   "description": "Laravel package that allows seeding based on a trait and custom seeder",
   "keywords": ["laravel", "package", "seed", "seeding", "database"],
-  "homepage": "https://github.com/copemsamx/laravel-seedable",
+  "homepage": "https://github.com/COPEMSAMX/laravel-seedable",
   "license": "MIT",
   "authors": [
     {
