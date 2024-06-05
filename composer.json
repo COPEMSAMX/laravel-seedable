@@ -1,17 +1,21 @@
 {
-  "name": "gregoriohc/laravel-seedable",
+  "name": "copemsamx/laravel-seedable",
   "description": "Laravel package that allows seeding based on a trait and custom seeder",
   "keywords": ["laravel", "package", "seed", "seeding", "database"],
-  "homepage": "https://github.com/gregoriohc/laravel-seedable",
+  "homepage": "https://github.com/copemsamx/laravel-seedable",
   "license": "MIT",
   "authors": [
     {
       "name": "Gregorio Hernández Caso",
       "email": "gregoriohc@gmail.com"
+    },
+    {
+      "name": "Marco Antonio Ramírez Solís",
+      "email": "marco.ramirez@rzerocorp.com"
     }
   ],
   "require": {
-    "php": "~5.6|~7.0",
+    "php": "~5.6|~7.0|~8.0",
     "illuminate/support": "~5.5",
     "illuminate/database": "~5.5"
   },
